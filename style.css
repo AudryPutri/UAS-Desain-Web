@@ -1,0 +1,59 @@
+.navlogo{
+    width: 20%;
+}
+.navtitle{
+    padding-left: 8px;
+}
+.spasi{
+    padding: 50px 0px 10px 0px;
+}
+.about{
+	background-color:rgba(75.56588396430016, 107.31249645352364, 80.6453450024128, 1);
+}
+
+.aboutdesc{
+    font-size: 20px;
+    padding: 1rem 3rem;
+}
+.aboutdesc h3{
+    color: palegoldenrod;
+}
+.counting{
+    width: 100%;
+    padding: 10rem 5%;
+    margin: 0rem 0;
+    min-height: 15rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    align-items: center;
+    justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 3rem;
+    background: -webkit-linear-gradient( rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)  ),url('../gambarterbaru/cafe.jpg') ;
+    background: linear-gradient( rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)  ),url('../gambarterbaru/cafe.jpg') ;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.footer{
+    background-color:rgba(75.56588396430016, 107.31249645352364, 80.6453450024128, 1);
+    padding: 2rem 5%;
+    color:white;
+}
+.footer ul {
+    list-style: none;
+}
+.footer a{
+    color: white;
+    text-decoration: none;
+}
+.footer a:hover{
+    color:gold;
+}
